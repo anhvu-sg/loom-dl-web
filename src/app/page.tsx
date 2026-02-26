@@ -11,7 +11,7 @@ export default function Home() {
   const [loomUrl, setLoomUrl] = useState('');
     const [loading, setLoading] = useState(false);
     const [notification, setNotification] = useState<{ message: string; type: 'error' | 'success' | 'info' } | null>(null);  // notification message
-    const subscription_link = "https://buy.polar.sh/polar_cl_DWTcOCkYdZM1L2rBfmG8SUbIsMNkstqKtJkt91APVnW"
+    const subscription_link = "https://buymeacoffee.com/abdibrokhim/e/514561"
 
     const downloadVideo = async () => {
         if (!loomUrl) return;
